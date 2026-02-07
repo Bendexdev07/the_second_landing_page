@@ -1,0 +1,27 @@
+.hero-section{
+    width: 1440px;
+    margin: 0px auto ;
+  
+}
+
+
+.hero-img{
+    width:1158px ;
+    height:610px ;
+      margin:0px auto ;
+
+}
+.hero-txt{
+    width: 1126px;
+    height: 288px;
+    color: white;
+    font-size: 70px;
+    line-height: 144px;
+    letter-spacing: -7.5px;
+    padding-top: 72px;
+      margin:0px auto ;
+      font-weight: 600;
+
+
+
+}
