@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from "/src/componets/navbar/navbar.jsx";
 import HeroSection from "/src/componets/heroSection/herosection.jsx";
+import BrandMessage from "/src/componets/brandMessage/brandMessage.jsx";
 
 export default function App() { 
   return (
@@ -9,6 +10,7 @@ export default function App() {
     <div>
       <Navbar />
       <HeroSection />
+      <BrandMessage />
 
     </div>
    
