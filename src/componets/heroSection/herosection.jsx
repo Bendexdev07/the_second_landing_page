@@ -8,16 +8,8 @@ export default function HeroSection() {
         </div>
         <div className="hero-txt">
             <h1>krate design and</h1>
-            
-               <h1>motion studio</h1>
-
-
-
+            <h1>motion studio</h1>
         </div>
-
-
-
-
 
 
     </div>
