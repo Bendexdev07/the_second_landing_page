@@ -4,6 +4,7 @@ import { teamMembersrow1, teamMembersrow2 } from "./team.js";
 
 export default function OurTeam() {
   return (
+    <>
     <div className="team-container">
       <div className="title">
         <img src="src/assets/Icon.png" alt="icon" />
@@ -35,6 +36,14 @@ export default function OurTeam() {
           />
         ))}
       </div>
+      <div>
+      <button className="memberes-btn">
+        <p>See all membres</p>
+        <img src="src/assets/arrow-up-right.png" alt="" />
+      </button>
     </div>
+    </div>
+    
+    </>
   );
 }
