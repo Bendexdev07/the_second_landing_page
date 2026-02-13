@@ -1,20 +1,34 @@
 .team-container {
-  margin: 0px auto;
   padding: 0 80px;
 }
+
 .title {
   display: flex;
 }
-.team-grid{
-    display: grid;
-    grid-template-columns:repeat(3,1fr) ;
-    gap: 32px 32px;
-    width: 1280px;
 
+.row-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  margin-bottom: 32px;
 }
-.paragraph{
-    font-size: 46px;
+
+.row-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
 }
-.team-container > .team-grid {
-  width: 100%; 
+
+.paragraph {
+  margin: 0;
+  font-size: 42px;
+  line-height: 1.6;
+  grid-area: 1/1 2/1;
+  grid-column: span 2;
+  letter-spacing: -2;
+}
+
+.card-container {
+  width: 100%;
+  box-sizing: border-box;
 }

@@ -31,5 +31,10 @@ export const teamMembersrow1 = [
     name: "James Sullivan",
     role: "Product Manager",
     imgSrc: member4
+  },
+   {
+    name: "James Sullivan",
+    role: "Product Manager",
+    imgSrc: member4
   }
 ];

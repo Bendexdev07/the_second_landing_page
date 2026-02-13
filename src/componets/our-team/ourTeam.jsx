@@ -10,24 +10,25 @@ export default function OurTeam() {
         <h2>Our Team</h2>
       </div>
 
-      <div className="team-grid">
+      <div className="row-1">
         <p className="paragraph">
           We are passionate about creating visually stunning and functional
           solutions that communicate effectively.
         </p>
-
         {teamMembersrow1.map((member, index) => (
           <Card
-            key={index}
+            key={`r1-${index}`}
             name={member.name}
             role={member.role}
             imgSrc={member.imgSrc}
           />
         ))}
+      </div>
 
+      <div className="row-2">
         {teamMembersrow2.map((member, index) => (
           <Card
-            key={index}
+            key={`r2-${index}`}
             name={member.name}
             role={member.role}
             imgSrc={member.imgSrc}
