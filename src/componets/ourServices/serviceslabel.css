@@ -1,0 +1,12 @@
+.service-container{
+    display: flex;
+    gap: 32px;
+    font-size: 34px;
+    align-items: flex-start;
+
+
+    
+}
+.service-img{
+    width:150px
+}

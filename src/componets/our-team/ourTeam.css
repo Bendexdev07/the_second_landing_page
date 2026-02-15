@@ -1,6 +1,6 @@
 .team-container {
-  
   padding: 0 80px;
+  width: 1440px;
 }
 
 .title {
@@ -33,15 +33,14 @@
   width: 100%;
   box-sizing: border-box;
 }
-.memberes-btn{
+.memberes-btn {
   margin-top: 32px;
   width: 100%;
   background-color: inherit;
-  gap:8px ;
-
-    border: 1px solid #282828;
-    display: flex;
-    justify-content: center;
-    padding: 14px  28px;
-    border-radius: 39px;
+  gap: 8px;
+  border: 1px solid #282828;
+  display: flex;
+  justify-content: center;
+  padding: 14px 28px;
+  border-radius: 39px;
 }
