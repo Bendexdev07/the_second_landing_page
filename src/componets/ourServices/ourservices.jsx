@@ -5,7 +5,7 @@ export default function OurServices(){
     return(
         <>
         <div className="title">
-            <img src="" alt="" />
+        <img src="src/assets/Icon.png" alt="icon" />
             <p>Our Services</p>
         </div>
         <div className="services-wrapper">
@@ -16,7 +16,7 @@ export default function OurServices(){
                     imgSrc={service.imgSrc}
                 />
             ))}
-        </div>
+            </div>
         
         
         
