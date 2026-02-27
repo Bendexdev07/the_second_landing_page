@@ -3,7 +3,7 @@ import { services } from "./services"
 import ServicesLabel from "./serviceslabel"
 export default function OurServices(){
     return(
-        <>
+        <div className="d">
         <div className="title">
         <img src="src/assets/Icon.png" alt="icon" />
             <p>Our Services</p>
@@ -21,6 +21,6 @@ export default function OurServices(){
         
         
         
-        </>
+        </div>
     )
 }
