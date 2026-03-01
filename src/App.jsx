@@ -5,6 +5,7 @@ import HeroSection from "/src/componets/heroSection/herosection.jsx";
 import BrandMessage from "/src/componets/brandMessage/brandMessage.jsx";
 import OurTeam from "/src/componets/our-team/ourTeam.jsx"; 
 import OurServices from './componets/ourServices/ourservices';
+import RecentWork from './componets/recentWork/recentWork';
 
 export default function App() { 
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <BrandMessage />
       <OurTeam />
       <OurServices/>
+      <RecentWork />
 
     </div>
    
